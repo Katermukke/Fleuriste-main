@@ -20,7 +20,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 body header {
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../asset/header_fleurs.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(asset/header_fleurs.jpg) no-repeat;
   background-size: cover;
   height: 41.5rem;
   color: var(--color-white);
@@ -242,4 +243,4 @@ body main footer .carrousel .allLogo .byArthur {
   color: var(--color-white);
   font-family: var(--font-family-ialiano);
   font-size: var(--font-size-20px);
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
