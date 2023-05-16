@@ -22,7 +22,7 @@ body {
 
   header {
     background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-      url(../asset/header_fleurs.jpg) no-repeat;
+      url(asset/header_fleurs.jpg) no-repeat;
     background-size: cover;
     height: 41.5rem;
     color: var(--color-white);
@@ -71,9 +71,12 @@ body {
         text-transform: uppercase;
       }
 
-      button {
-        width: 11rem;
-        height: 3.5rem;
+      .buttonFirstSection {
+        width: 10rem;
+        height: 3.6rem;
+        background-image: url(asset/icons8-drapeau-30.png);
+        background-repeat: no-repeat;
+        background-position: right 5% bottom 50%;
         background-color: var(--color-black);
         color: var(--color-white);
         font-weight: var(--font-weight-500);
@@ -81,15 +84,22 @@ body {
         font-size: var(--font-size-20px);
         border: none;
         display: flex;
+        padding-right: 1rem;
         justify-content: center;
         align-items: center;
-        padding-left: 2rem;
         margin-top: 2rem;
+        text-decoration: none;
       }
 
-      .svgButton {
-        margin-left: 1rem;
-        color: var(--color-white);
+      .buttonFirstSection:hover {
+        background-image: url(asset/icons8-drapeau-30-black.png);
+        background-repeat: no-repeat;
+        background-position: right 5% bottom 50%;
+        background-color: var(--color-white);
+        font-family: var(--font-family-roboto);
+        font-size: var(--font-size-20px);
+        color: var(--color-black);
+        transition: all ease 300ms;
       }
     }
   }
@@ -242,14 +252,14 @@ body {
             margin-top: 1rem;
             padding-bottom: 1rem;
 
-            svg {
+            .svg {
               background-color: rgb(214, 214, 214);
               height: 3rem;
               width: 3rem;
               padding: 0.3rem;
               border-radius: 50%;
               margin-right: 0.5rem;
-              margin-left: 10rem;
+              margin-left: 12.5rem;
             }
 
             img {
