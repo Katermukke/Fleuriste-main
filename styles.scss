@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@100;300;400;500;700;900&family=Saira+Stencil+One&display=swap");
+
+:root {
+  --color-black: #1e1e1e;
+  --color-white: #f7f7f7f7;
+  --font-family-ialiano: "Italianno", cursive;
+  --font-family-roboto: "Roboto", sans-serif;
+  --font-family-sairaStencilOne: "Saira Stencil One", cursive;
+  --font-size-20px: 20px;
+  --font-size-25px: 25px;
+  --font-size-96px: 96px;
+  --font-weight-100: 100;
+  --font-weight-300: 300;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-700: 700;
+  --font-weight-900: 900;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  header {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+      url(../asset/header_fleurs.jpg) no-repeat;
+    background-size: cover;
+    height: 41.5rem;
+    color: var(--color-white);
+    font-weight: var(--font-weight-500);
+    font-family: var(--font-family-roboto);
+
+    nav {
+      width: 100%;
+      height: 7rem;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+
+      ul {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        letter-spacing: 0.02rem;
+        font-size: var(--font-size-20px);
+      }
+
+      li:nth-child(1) {
+        color: var(--color-black);
+        background-color: var(--color-white);
+        height: 2.5rem;
+        width: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .headerCenter {
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+
+      .title {
+        margin-top: 5rem;
+        font-size: var(--font-size-96px);
+        font-family: var(--font-family-sairaStencilOne);
+        text-transform: uppercase;
+      }
+
+      button {
+        width: 11rem;
+        height: 3.5rem;
+        background-color: var(--color-black);
+        color: var(--color-white);
+        font-weight: var(--font-weight-500);
+        font-family: var(--font-family-roboto);
+        font-size: var(--font-size-20px);
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 2rem;
+        margin-top: 2rem;
+      }
+
+      .svgButton {
+        margin-left: 1rem;
+        color: var(--color-white);
+      }
+    }
+  }
+
+  main {
+    .secondSection {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .titleSecondSection {
+        width: 100%;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: var(--color-black);
+        font-family: var(--font-family-ialiano);
+
+        .localFlowers {
+          font-size: 3rem;
+        }
+
+        .lyon {
+          font-size: var(--font-size-96px);
+        }
+      }
+
+      .allItems {
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        font-family: var(--font-family-roboto);
+        margin-bottom: 9rem;
+
+        .item {
+          width: 15rem;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          text-align: center;
+
+          .bold {
+            font-weight: var(--font-weight-700);
+            font-size: var(--font-size-20px);
+            margin-bottom: 0.5rem;
+          }
+
+          .regular {
+            font-size: var(--font-size-20px);
+          }
+
+          svg {
+            background-color: rgb(214, 214, 214);
+            height: 3rem;
+            width: 3rem;
+            padding: 1rem;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+          }
+        }
+      }
+
+      .imageSecondSection {
+        margin-bottom: 5rem;
+
+        .imageFlowers {
+          width: 20rem;
+          height: 13.5rem;
+          background-size: cover;
+        }
+
+        .imageFlowers:nth-child(1) {
+          margin-right: 2rem;
+        }
+      }
+
+      .composition {
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 5rem;
+
+        .titleComposition {
+          margin-bottom: 1rem;
+          color: var(--color-black);
+          font-size: var(--font-size-96px);
+          font-family: var(--font-family-ialiano);
+        }
+
+        .flowersComposition {
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+
+          .fleur {
+            background-size: cover;
+            box-shadow: 10px 5px 5px rgb(175, 175, 175);
+          }
+        }
+      }
+    }
+    footer {
+      height: auto;
+
+      .carrousel {
+        width: 100%;
+        background-color: rgb(26, 26, 26);
+
+        .followWe {
+          height: 3.5rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: var(--color-white);
+          font-family: var(--font-family-roboto);
+          font-size: var(--font-size-25px);
+          font-weight: var(--font-weight-100);
+          letter-spacing: 0.05rem;
+          font-style: italic;
+        }
+
+        .flowersCarrousel {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .allLogo {
+          width: 100%;
+          display: flex;
+
+          .logo {
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
+            padding-bottom: 1rem;
+
+            svg {
+              background-color: rgb(214, 214, 214);
+              height: 3rem;
+              width: 3rem;
+              padding: 0.3rem;
+              border-radius: 50%;
+              margin-right: 0.5rem;
+              margin-left: 10rem;
+            }
+
+            img {
+              background-color: rgb(214, 214, 214);
+              height: 3rem;
+              width: 3rem;
+              padding: 0.3rem;
+              border-radius: 50%;
+              margin-right: 0.5rem;
+            }
+
+            img:nth-child(4) {
+              margin: 0;
+            }
+          }
+
+          .byArthur {
+            width: 10%;
+            display: flex;
+            justify-items: content;
+            align-items: center;
+            color: var(--color-white);
+            font-family: var(--font-family-ialiano);
+            font-size: var(--font-size-20px);
+          }
+        }
+      }
+    }
+  }
+}

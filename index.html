@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Description du contenu" />
+    <meta
+      name="og:title"
+      property="og:title"
+      content="Le nom de votre article"
+    />
+    <meta name=" author" content=" Nom de l’auteur" />
+    <meta name=" copyright" content=" Titulaire des droits" />
+    <meta property="og:url" content="http://www.exemple.com" />
+    <link rel="icon" type="image" href="exemple/chemin.jpeg" />
+    <link rel="alternate" href="http://example.com" hreflang="fr" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <script src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="navLink">Accueil</li>
+          <li class="navLink">Commander</li>
+          <li class="navLink">Promotion</li>
+          <li class="navLink">Conexion</li>
+        </ul>
+      </nav>
+      <div class="headerCenter">
+        <h1 class="title">florpopbiz</h1>
+        <button class="buttonFirstSection">
+          Explore
+          <img
+            class="svgButton"
+            src="../asset/icons8-drapeau-30.png"
+            alt="drapeau"
+          />
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="secondSection">
+        <div class="titleSecondSection">
+          <h3 class="localFlowers">Des fleurs locales et autres</h3>
+          <h2 class="lyon">Lyon</h2>
+        </div>
+        <div class="allItems">
+          <div class="item">
+            <svg
+              width="60"
+              height="60"
+              viewBox="0 0 60 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <rect width="60" height="60" fill="url(#pattern0)" />
+              <defs>
+                <pattern
+                  id="pattern0"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use xlink:href="#image0_1_29" transform="scale(0.0111111)" />
+                </pattern>
+                <image
+                  id="image0_1_29"
+                  width="90"
+                  height="90"
+                  xlink:href="data:image/png;base64,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"
+                />
+              </defs>
+            </svg>
+            <p class="bold">Livraison en 24h</p>
+            <p class="regular">
+              livraison garantie pour la fraicheur des fleurs
+            </p>
+          </div>
+          <div class="item">
+            <svg
+              width="60"
+              height="60"
+              viewBox="0 0 60 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <rect width="60" height="60" fill="url(#pattern0)" />
+              <defs>
+                <pattern
+                  id="pattern0"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use xlink:href="#image0_1_28" transform="scale(0.0111111)" />
+                </pattern>
+                <image
+                  id="image0_1_28"
+                  width="90"
+                  height="90"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEO0lEQVR4nO2dy4scVRTGj+9k7Qsf8REVFTUIo9LJ5nK/71ZPr4VGENyKBDcujGgSBxMCIpgQEwgRRBCNC/EfMK51IYKYjYgK4ishj010YmRMy4mlZFF1Z/pRfW9Vzg8uRUNX9anffH3q9tB9S8QwDMMwDCMZ3vuHSL4H4FeSF0iO5jgukPwmhPCkdBmSTwH4c85yR1XCATwnXSSE8AiA8xlIHl0i+3npGiSPZCB3VNFKXpAuAeBEBmJHNeNF6QoJLnyjSweAwwBOR57zsnSBDFL7bFEUj5I8GXnO69J2chAt/16UHyynlt2UnYtopd/vPwDgl0ibeUPaSk6iFe/9/SR/jsh+U9pIbqKVEMJ9JH+K7HNIRK6QNpGjaMU5dxeAHyLJPry0tHSltIVcRSve+zsBfB+R/XZrZOcsWgkh3EHyu4jsd1ohO3fRSr/f3wDg28gxjjjnrpacaYNoBcBt+q/USLLfl5xpi2gFwM0AjtUdS3KmTaKVoihuAvC1iR5f9FYZkzrZkjMZJPrdSep2zt1A8isTzbWJBrASQnh6wpBcT/JLSzTXnmwAPwL4FMDRMccXJprzbUOSMxn06JGJzkAeLdHpxdJah4m+LHs0Jz/mGQCf6afXwWBwnV0M2Zjo/4d+EnXO3W6zDjYrupR9bDgcXjuR7NRvd+bdOqpkv2Si5yP6hHNunYxL6hSyZYnW4b1/xkRXsMakngewLYRwqzRB6hQyk0RP3HtN9HiiFxcXb5EmSZ1CZpLoRiWbaJpoWqLTtwha6zDRtaROIS3R6cXRWkeeQ6Z410rTpJZDE51eHC3R6aXSWoeJriR1CplJopuuwUTTRI8s0Rm0CVrrMNGVpE4hLdHpxdFaR3qptB5toitJnUJaotOLo7WO9FJpPdpEV5I6hbREpxfHtreOXq+3HsB+ksdncPBlAK+S3LiwsHCNbsvHyy0RfVZXiyyK4m6tX7cAXgHw+4R1HAew9+J3qEkenNHJqczNVSfnvd8yb9kTiD7rvV+o2ieE8NgUsvXbqfv1hc/M4sQ0uRIBwFLmoqPrnpLcMYWb0zMTrW+zWKHe+3tyFt1k/f+JPjCLE9NeHyu01+utz1n0ar+w0t8WTiH6LV1UZJ0uPUnyt2lODMCmWKEANl2GiVan+1YLYZ2wozUH3RPbj+Semv0+kTlSV7/OLmL7kdw51/ojF4VzOruIzDrO1Zzg9kYKHbP+clbxeNU+AJ4A8Mdc6y/nlit1skm+5py7dzgcXqVbfcx6ySu67mgjhU5Qfylb/xAbtWeX7WJnRHKz9ZP8cBZ9FMAHjRXZhfoHg8GNM7jxwkldJLDRQrtQv/cedS1hDWM5hOAaL7Ir9QMoAJwaNwkkg2RAq+ovV7/9eLVbiwD4m+RHuoCrZETr6i+K4mEAuwF8Xt5x4i/d6qotAHbpjc4kY9pev2EYhmEYhlzkH90I+krcsfJaAAAAAElFTkSuQmCC"
+                />
+              </defs>
+            </svg>
+            <p class="bold">Variétés</p>
+            <p class="regular">
+              Le choix pour faire plaisir à tout le monde avec diverses variétés
+              de fleurs
+            </p>
+          </div>
+
+          <div class="item">
+            <svg
+              width="60"
+              height="60"
+              viewBox="0 0 60 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <rect width="60" height="60" fill="url(#pattern0)" />
+              <defs>
+                <pattern
+                  id="pattern0"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use xlink:href="#image0_1_29" transform="scale(0.0111111)" />
+                </pattern>
+                <image
+                  id="image0_1_29"
+                  width="90"
+                  height="90"
+                  xlink:href="data:image/png;base64,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"
+                />
+              </defs>
+            </svg>
+            <p class="bold">Visiter notre boutique</p>
+            <p class="regular">
+              Venez visiter notre boutique sentir et toucher nos fleurs pour les
+              choisir
+            </p>
+          </div>
+          <div class="item">
+            <svg
+              width="60"
+              height="60"
+              viewBox="0 0 60 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <rect width="60" height="60" fill="url(#pattern0)" />
+              <defs>
+                <pattern
+                  id="pattern0"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use xlink:href="#image0_1_30" transform="scale(0.0111111)" />
+                </pattern>
+                <image
+                  id="image0_1_30"
+                  width="90"
+                  height="90"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAADuUlEQVR4nO1cPW8TQRS8hhDEL0AgoKdMk+7sN4niAkR1PaJJQRJ+BqZBEdDzU9IRaCAU1G5IIkEFTm/0lDM6BSt577x7u7FnpJWiZPU+5mZnHe/dFQVBEARBEARBEMSioSzLVRF5CeCziJwBmCzikPPePgHYGwwGN7sm+R6Ab6lJQPfjSHvviuTVJSV5MiW7E2XXdjFZ8rEbnWj15AwanaQcInLYBdHj1I0i/Rh3QXTqJic5DBINEj1JrcJro2gReXZVASJycFWcsiwfxmjGElNzG/o8MPT5rIiBfr//yPgfYC/EBUMkoi0EaQ+GOGfKSRESm5ubtwF8D6FmBYAPqYjW3JZYFlUrJ8qNt865ibGoWQFglJDokTFWL+SFK0Itc6uaS6M/RyTa5NMOVc/v1w5fNqtZjBcuJtFWYqyqnsuvrb7sUbPThqIR7VnuVlW39msPIVY1e/w5MtEjR8xejAvoXt4eNZcOf45MtNmnnaq2+7XTl11qFscFjE20ZwPzqNrk1x5f9qq5hR1FJdq7zD2qvtKvvUR41Oz15w6IHjlj94JdSM93zSLyuwUR41ziA/iTrH7P6UmbUwZkFF9PtpPVr0fqjkA7LQrdyyV+m3O/YPXr6a6e8hqCfK2qasVb6IDx/7tn4+gykkXkrpfkjOJ/2draupNF/bXydtVn6g1gLCIfdTm0UXIm8Q81foh7MmLXTxAEQVwDrK2t3QDwXEReWDaXqqpWRGTbuhnpHJ1rje+dX99yrPO3LZvXNL72rL0XsbC+vn5rY2Pjvog8EZE3InLc+DjzE8A7AE/1q0ed25wPYB/A6az5/X7/wXS+/qy/07/Vc/7NF5G3886vv6LV+e8B/Gp8JNPa9rVWrXnG/Ivxj5UDAI+n84MR7fhvaylHQaJBopGBEqlopCeP1oH0xNKjQaInqVVHRSM9UbQOpCcxa48OlriBHHKR6MAg0aCiaR0hQI8GPbqIAHo06NH06BCgR4MeXUQAPRr0aHr0dVhKVVWtAHgtIif1Cfvw4m0AllyWODn0mywxgOGMOENLDd44OfSbLLGInMyIc2qpwRsnh36TJZbGDTmN8cNSgzdODv0mS4wZS15EXllq8MbJod9kiavzTWxY324172Z4aZwc+s0vcQM55CLRgUGiQUXTOkKAHg16dLFgHj1OkriBHHKFejlAsFcZB0vcQMZEh3vFsfNh9mUjeidYYuvD8stGtLR8+cBcD5svG9Ey58sBvA+bJ2++6DAXH64nCIIgCIIgCKJYRPwFiaT2EmTskFwAAAAASUVORK5CYII="
+                />
+              </defs>
+            </svg>
+            <p class="bold">Fleurs fraiches</p>
+            <p class="regular">
+              Des fleurs fraichement couper pour les garder plus longtemps
+            </p>
+          </div>
+        </div>
+
+        <div class="imageSecondSection">
+          <img
+            class="imageFlowers"
+            src="../asset/fleuriste-femelle-faisant-bouquet.jpg"
+            alt="Fleurs"
+          />
+          <img class="imageFlowers" src="../asset/fleurs11.png" alt="fleurs" />
+        </div>
+
+        <div class="composition">
+          <h2 class="titleComposition">Compositions</h2>
+          <div class="flowersComposition">
+            <img class="fleur" src="../asset/fleur6.png" alt="" />
+            <img class="fleur" src="../asset/fleur7.png" alt="" />
+            <img class="fleur" src="../asset/fleur8(1).png" alt="" />
+            <img class="fleur" src="../asset/fleurs9.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="carrousel">
+          <p class="followWe">Suivez nous sur instagram et facebook</p>
+          <div class="flowersCarrousel">
+            <img class="" src="../asset/fleuriste_rose.png" alt="Fleurs" />
+            <img class="" src="../asset/fleur2.png" alt="Fleurs" />
+            <img class="" src="../asset/fleur3.png" alt="Fleurs" />
+            <img class="" src="../asset/fleur4.png" alt="Fleurs" />
+            <img class="" src="../asset/fleur5.png" alt="Fleurs" />
+          </div>
+
+          <div class="allLogo">
+            <div class="logo">
+              <svg
+                width="55"
+                height="55"
+                viewBox="0 0 55 55"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="55" height="55" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_5_80"
+                      transform="scale(0.0111111)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_5_80"
+                    width="90"
+                    height="90"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFeElEQVR4nO2cSYhdRRSGizjEiAOCI4pjRNxopBWfTUt1/X9d+wmNw+LFOSBOTVCMRG3BxXOhkARcGHDpQheKghqNwRBRdBNdpB06DtlE44iaxCQLia3pfnLo2yDSw+33arj3vfrhQEPz7jv19em6p6pOHaWSkpKSkpKSkpKSkpKSiqnRaBxF8ioA9wDYAGATgHEAu0n+AWBCLP95d/67TSTXy2estVfKMwp+XW9Ja30OgDUANgM4RLLViQE4SPJtAA8DOFv1smq12jJjzF0A3gMw2SnceaAfIbkNwJ1a6+NUr0hrfUIeaT/7gjsP9N9JPmWtPVl1q/r6+o4h+RiA/aEBzwJ8P4C14pPqJgG4FsDO2IBnsV0kraq6ZE4E8DzJqRJAncumAGys1+tLVRWltT6f5CclANkqaGNa6+WqSpJ/RxdpGgObpIXGGKgqCMDNJA/Hhsb2Ycti6BZVZpG832dOzHCwJ62196kyCsBN+eIgOii6g71SlUkyrwH4KzYcuoc9YYy5TpVB1tqLq/ji4+JekBeVIU/+NDYMTtvfJH8F8DXJHeJXvrv3/cyuXwfP3hE1z84XI7EibRLAOyQfMsZc3mw2lyzkr9b6TAD3tvl9G1UMWWt1pBXfFIAXrbWXtvs+afd7rbUDKsIG0ZcRIB+w1g514nsHoCWqx7XWR6tQkl24CFPFIZJXdOp7J6Bze0SFUH9//4mRtjpvdOG/A9B7ZU9d+RaAxyNE86uu/HcAWvxZq3wfP0kKFRjypDHmkpKB/sXrsRjJVaGjmeT7LsfgArSYtfZ25UtykBoaNIA1i/FRsgJjzA3W2idIrpvFXnHk11afJQHBd+YGBwevXoSPywF8EygAjgwNDZ3lHLREVmjIJA83Go1ji/gnS+TQuT2AB32A3hwaNICdRf0zxtwdIRDe9FGmdSDCQD4q6iOAdyP4d8Bp+ZnUwkUYREvKuhbhY9C0c8aMMX3OQEvxYCTQLxXxT6Iq1umOTFkuQW+IMQgALxT074xIgSC2zhlokm+VGXSWZRdEBP2GS9BfJNCcKxg+cwl6TwLNuUB/6wx0rApQVGPq2OsSdCcHm61uBi1lFmUHvW1gYOCU+Wx4ePj4Iv7JwexCz5oxY8yjjkFPOAPtaVW4RUUQgOccg97nzDmSP3YR6K2Ox7HHpXPj3QKa5HeOx/G5M+fye3yVB12r1Za53lMH8LozBwE82w2gsyxb4WEc6505COCBbgBtrV3pehxO66g9RcIWFVgAmq7HAeAyZw5Knppf+600aJIvO4Z80Pm9cw9p0S4AowvY9UV8k5uwBZ416iHjcB8sJFd7mD5aVV6CAxhxDlo210OfYqDEoIVFlmWnOwedw/4wgeYM7A+UL0kZVALNmYi+1XcBuo99j1bFpo6fvHdGAPBkr4MGMKp8S4qwQ9VQoISgAfxWr9dPUiEkNWc9DHpEhZLMTyGqNlE+0F8FvSwkstbWfOfVKBHo/G542OtvnrdPW2UE7bQiqc07LWM9AHoseis3a+25eZuzrgQNYJ88X5VBJAd9tJFAZNBSSiBXsVWZJBcuSf7TLaAx/aIvZ8sfaUvpMhNBJNAyBmPMbarMksgG8GdVQWN6CixnJP9fxph+eYlUDTSmX+rXqCrJGHMegO1VAQ1guzRFVFWULFcl0Ueb83YI0HlBzTPBl9Y+lGXZCgAflw103g+qWlNFwZtTI7JpHhu0dCeQoqAifZgqq3q9vlS2WQH8EAG0XBFZHX05HVLNZnOJNIsl+VreSs0LaHk/5O3tG13XmHux0lqfSvIOqST6b1rYLug8TZOqpFX1ev00/yOoqEheKBEofTcW8Yd6Wj4jnSW7eu5NSkpKSkpKSkpKSkpSjvUvgWM4kgtr2kwAAAAASUVORK5CYII="
+                  />
+                </defs>
+              </svg>
+              <img src="../asset/Instagram.png" alt="Logo Instragram" />
+              <img src="../asset/Twitter.png" alt="Logo Twitter" />
+              <img src="../asset/Email.png" alt="Logo Email" />
+            </div>
+            <div class="byArthur">
+              <p>By Arthur Clerc</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
